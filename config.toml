@@ -1,4 +1,4 @@
-baseURL = "http://localhost:3000/rave-web"
+baseURL = "https://ravemovie.netlify.app"
 title = "Rave Movie"
 
 theme = "Puppet"
@@ -96,3 +96,6 @@ category_id = "DIC_kwDOHuvyh84CQjDo"
 input_position = "top"
 theme = "light_tritanopia"
 lang = "en"
+
+[context.production.environment]
+  HUGO_VERSION = "0.115.4"
